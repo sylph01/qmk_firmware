@@ -62,9 +62,9 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
   //|LALT, 1  , 2  , 3  , 4  , 5  ,                6  , 7  , 8  , 9  , 0  ,    ,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-  //|LCTL,    ,    ,    ,    ,LBRC,               RBRC,    , UP ,    ,PLUS,PIPE,
+  //|LCTL,    ,    ,    ,    ,LBRC,               RBRC,    , UP ,MINS,PLUS,PIPE,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
-  //|LSFT,    ,    ,    ,    ,LCBR,    ,         ,RCBR,LEFT,DOWN,RGHT,MINS,RSFT,
+  //|LSFT,    ,    ,    ,    ,LCBR,    ,         ,RCBR,LEFT,DOWN,RGHT,BSLS,RSFT,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
   //                   MHEN,    ,    ,             ,    ,HENK
   //                  `----+----+----'        `----+----+----'
@@ -82,7 +82,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
   //|    ,EXLM, AT ,HASH,DLR ,PERC,               CIRC,AMPR,ASTR,LPRN,RPRN,    ,
   //|----+----+----+----+----+----|              |----+----+----+----+----+----|
-  //|    ,    ,    ,    ,PGUP,UNDS,               EQL ,HOME,    ,    ,    ,    ,
+  //|    ,    ,    ,PSCR,PGUP,UNDS,               EQL ,HOME,    ,    ,    ,    ,
   //|----+----+----+----+----+----+----.    ,----|----+----+----+----+----+----|
   //|    ,    ,    ,    ,PGDN,MINS,    ,         ,PLUS,END ,    ,    ,BSLS,    ,
   //`----+----+----+--+-+----+----+----/    \----+----+----+----+----+----+----'
@@ -91,8 +91,8 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   LAYOUT(
     KC_F12 , KC_F1  , KC_F2  , KC_F3  , KC_F4  , KC_F5  ,                   KC_F6  , KC_F7  , KC_F8  , KC_F9  , KC_F10 , KC_F11 ,
     _______, KC_EXLM, KC_AT  , KC_HASH, KC_DLR , KC_PERC,                   KC_CIRC, KC_AMPR, KC_ASTR, KC_LPRN, KC_RPRN, _______,
-    _______, _______, _______, _______, _______, KC_UNDS,                   KC_EQL , KC_HOME, _______, _______, _______, _______,
-    _______, _______, _______, _______, _______, KC_MINS, _______, _______, KC_PLUS, KC_END , _______, _______, KC_BSLS, _______,
+    _______, _______, _______, KC_PSCR, KC_PGUP, KC_UNDS,                   KC_EQL , KC_HOME, _______, _______, _______, _______,
+    _______, _______, _______, _______, KC_PGDN, KC_MINS, _______, _______, KC_PLUS, KC_END , _______, _______, KC_BSLS, _______,
     KC_MHEN, _______, _______, _______, _______, KC_HENK
   ),
 
