@@ -39,5 +39,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #define RGBLIGHT_VAL_STEP 8
 
 #define PERMISSIVE_HOLD
+#define PREVENT_STUCK_MODIFIERS
 
 #endif
