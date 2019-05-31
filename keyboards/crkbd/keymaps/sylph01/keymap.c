@@ -51,8 +51,8 @@ enum macro_keycodes {
 #define KC_LVAD  RGB_VAD
 #define KC_LMOD  RGB_MOD
 
-#define LWR_MHN LT(KC_LOWR, KC_MHEN)
-#define RAS_HNK LT(KC_RASE, KC_HENK)
+#define LWR_MHN LT(_LOWER, KC_MHEN)
+#define RAS_HNK LT(_RAISE, KC_HENK)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_QWERTY] = LAYOUT(
